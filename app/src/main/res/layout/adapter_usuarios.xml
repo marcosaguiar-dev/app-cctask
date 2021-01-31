@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintAdm"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:padding="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageSiglaUsuario"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white"
+        android:src="@color/white"
+        app:civ_border_color="@android:color/black"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textSiglaUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MA"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageSiglaUsuario"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageSiglaUsuario"
+        app:layout_constraintStart_toStartOf="@+id/circleImageSiglaUsuario"
+        app:layout_constraintTop_toTopOf="@+id/circleImageSiglaUsuario" />
+
+    <TextView
+        android:id="@+id/textNomeUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:text="Marcos Aguiar"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageSiglaUsuario"
+        app:layout_constraintStart_toEndOf="@+id/circleImageSiglaUsuario"
+        app:layout_constraintTop_toTopOf="@+id/circleImageSiglaUsuario" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView11"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@android:color/black"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/circleImageSiglaUsuario" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

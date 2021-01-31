@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SolicitacoesActivity">
+
+    <include
+        android:id="@+id/include4"
+        layout="@layout/toolbar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerSolicitacoes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include4" />
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/linearLayout4"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:gravity="center_vertical"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/include4">-->
+
+    <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:padding="10dp">-->
+
+    <!--            <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--                android:id="@+id/circleImageSiglaAdm1"-->
+    <!--                android:layout_width="50dp"-->
+    <!--                android:layout_height="50dp"-->
+    <!--                android:background="@color/white"-->
+    <!--                android:src="@color/white"-->
+    <!--                app:civ_border_color="@color/black"-->
+    <!--                app:civ_border_width="5dp"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                app:layout_constraintStart_toStartOf="parent"-->
+    <!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/textSiglaUsuarioAdm1"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="MA"-->
+    <!--                android:textSize="16dp"-->
+    <!--                android:textStyle="bold"-->
+    <!--                app:layout_constraintBottom_toBottomOf="@+id/circleImageSiglaAdm1"-->
+    <!--                app:layout_constraintEnd_toEndOf="@+id/circleImageSiglaAdm1"-->
+    <!--                app:layout_constraintStart_toStartOf="@+id/circleImageSiglaAdm1"-->
+    <!--                app:layout_constraintTop_toTopOf="@+id/circleImageSiglaAdm1" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/textNomeAdm1"-->
+    <!--                android:layout_width="0dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginStart="10dp"-->
+    <!--                android:layout_marginLeft="10dp"-->
+    <!--                android:padding="5dp"-->
+    <!--                android:text="Marcos Aguiar"-->
+    <!--                app:layout_constraintBottom_toBottomOf="@+id/circleImageSiglaAdm1"-->
+    <!--                app:layout_constraintStart_toEndOf="@+id/circleImageSiglaAdm1"-->
+    <!--                app:layout_constraintTop_toTopOf="@+id/circleImageSiglaAdm1" />-->
+
+
+    <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <!--    </LinearLayout>-->
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonPermitirAdm"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:background="@drawable/background_button_salvar"-->
+    <!--        android:text="Permitir"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/linearLayout4"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/linearLayout4" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textSolicitacaoAguardando"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Aguardando aprovação..."-->
+    <!--        android:visibility="gone"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/linearLayout4"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/linearLayout4" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView11"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="1dp"-->
+    <!--        android:background="@color/black"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/linearLayout4"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.TarefaAvisoActivity">
+
+        <include layout="@layout/toolbar"/>
+
+        <com.ogaclejapan.smarttablayout.SmartTabLayout
+            android:id="@+id/viewPagerTab"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:stl_indicatorAlwaysInCenter="false"
+            app:stl_indicatorWithoutPadding="false"
+            app:stl_indicatorInFront="false"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorGravity="bottom"
+            app:stl_indicatorColor="@color/colorAccent"
+            app:stl_indicatorThickness="4dp"
+            app:stl_indicatorWidth="auto"
+            app:stl_indicatorCornerRadius="2dp"
+            app:stl_overlineColor="#4D000000"
+            app:stl_overlineThickness="0dp"
+            app:stl_underlineColor="#4D000000"
+            app:stl_underlineThickness="0.5dp"
+            app:stl_dividerColor="@android:color/transparent"
+            app:stl_dividerThickness="4dp"
+            app:stl_defaultTabTextAllCaps="true"
+            app:stl_defaultTabTextColor="#FFF"
+            app:stl_defaultTabTextSize="15sp"
+            app:stl_defaultTabTextHorizontalPadding="16dp"
+            app:stl_defaultTabTextMinWidth="0dp"
+            app:stl_distributeEvenly="true"
+            app:stl_clickable="true"
+            app:stl_titleOffset="16dp"
+            app:stl_drawDecorationAfterTab="false"
+            />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearConexaoTarAvi"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@color/white"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical"-->
+<!--        android:visibility="gone">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView4"-->
+<!--            android:layout_width="300px"-->
+<!--            android:layout_height="300px"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="@color/white"-->
+<!--            app:srcCompat="@drawable/conexao" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView5"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Verifique sua conexão"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+
+
+</LinearLayout>

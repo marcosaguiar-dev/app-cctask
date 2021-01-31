@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CCTask</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="digite_nome">Digite seu nome</string>
+    <string name="digite_turma">Digite sua turma</string>
+    <string name="digite_email">Digite seu e-mail</string>
+    <string name="digite_senha">Digite sua senha</string>
+    <string name="button_logar">Acessar</string>
+    <string name="nao_tem_conta">Não tem conta? Cadastre-se</string>
+    <string name="button_cadastrar">Cadastrar</string>
+    <string name="title_activity_main1">MainActivity1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_tarefas">TarefasActivity</string>
+
+    <string-array name="materias">
+        <item></item>
+        <item>Aspec Teor da Computação</item>
+        <item>APS</item>
+        <item>Estudos Disciplinares</item>
+        <item>Administração</item>
+        <item>Trabalho de curso I</item>
+        <item>Engenharia de Software</item>
+        <item>Sistemas Distribuidos</item>
+        <item>Ciência da Computação Integrada</item>
+    </string-array>
+</resources>

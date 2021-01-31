@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0C1C49"
+    android:gravity="center"
+    tools:context=".Activity.CadastroActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editNomeCadastro"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_campo_texto"
+            android:drawableLeft="@drawable/ic_person_24dp"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Nome"
+            android:inputType="textPersonName"
+            android:padding="9dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editSobrenomeCadastro"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_campo_texto"
+            android:drawableLeft="@drawable/ic_person_24dp"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Sobrenome"
+            android:inputType="textPersonName"
+            android:padding="9dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/editTurmaCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/background_campo_texto"
+        android:drawableLeft="@drawable/ic_title_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Turma"
+        android:inputType="textPersonName"
+        android:padding="9dp" />
+
+    <EditText
+        android:id="@+id/editEmailCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/background_campo_texto"
+        android:drawableLeft="@drawable/ic_email_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textPersonName"
+        android:padding="9dp" />
+
+    <EditText
+        android:id="@+id/editSenhaCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/background_campo_texto"
+        android:drawableLeft="@drawable/ic_lock_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPersonName|textPassword"
+        android:padding="9dp" />
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/background_button"
+        android:onClick="validarCadastroUsuario"
+        android:text="@string/button_cadastrar" />
+
+    <LinearLayout
+        android:id="@+id/linearCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/buttonCadastrarAlterar"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_button"
+            android:text="Alterar" />
+
+        <Button
+            android:id="@+id/buttonCadastrarCancelar"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/background_button"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+</LinearLayout>

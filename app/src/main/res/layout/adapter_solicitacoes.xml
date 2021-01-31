@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintAdm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp">
+
+    <!--    <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--        android:id="@+id/circleImageSiglaAdm"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="@color/white"-->
+    <!--        android:src="@color/white"-->
+    <!--        app:civ_border_color="@android:color/black"-->
+    <!--        app:civ_border_width="5dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textSiglaUsuarioAdm"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="MA"-->
+    <!--        android:textSize="16dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/circleImageSiglaAdm"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/circleImageSiglaAdm"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/circleImageSiglaAdm"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/circleImageSiglaAdm" />-->
+
+    <TextView
+        android:id="@+id/textNomeAdm"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Marcos Aguiar"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPermitirAdm"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:background="@drawable/background_button_salvar"
+        android:text="Permitir"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toEndOf="@+id/textNomeAdm"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="392dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPermitirAdm" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
